@@ -1,0 +1,1 @@
+# wsu-theme-noncredit-child-theme
