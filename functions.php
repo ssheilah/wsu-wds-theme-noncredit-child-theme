@@ -18,5 +18,3 @@ function wsu_posts_sort_alphabetical( $query ) {
 
 add_action( 'pre_get_posts', 'wsu_posts_sort_alphabetical', 1 );
 
-require_once __DIR__ . '/list-custom-taxonomy-widget.php';
-
