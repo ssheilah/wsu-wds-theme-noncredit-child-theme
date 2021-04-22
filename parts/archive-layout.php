@@ -2,10 +2,10 @@
 
 	<div class="column one">
 	
-		<?php if (is_category('all-courses')) : ?>
+		<?php if (is_category('all-programs')) : ?>
 		<h1><?php single_cat_title(); ?></h1>
 		<?php else : ?>
-		<h1>All <?php single_cat_title(); ?> Courses</h1>
+		<h1>All <?php single_cat_title(); ?> Programs</h1>
 		<?php endif; ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
